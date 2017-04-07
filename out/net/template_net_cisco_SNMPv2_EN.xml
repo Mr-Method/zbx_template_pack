@@ -45,7 +45,7 @@
                <multiplier>0</multiplier>
                <snmp_oid>1.3.6.1.2.1.47.1.1.1.1.13.1</snmp_oid>
                <key>system.hw.model</key>
-               <delay>300</delay>
+               <delay>86400</delay>
                <history>7</history>
                <trends>0</trends>
                <status>0</status>
@@ -88,7 +88,7 @@
                <multiplier>0</multiplier>
                <snmp_oid>1.3.6.1.2.1.47.1.1.1.1.11.1</snmp_oid>
                <key>system.hw.serialnumber</key>
-               <delay>300</delay>
+               <delay>86400</delay>
                <history>7</history>
                <trends>0</trends>
                <status>0</status>
@@ -183,7 +183,7 @@
                      <multiplier>0</multiplier>
                      <snmp_oid>1.3.6.1.2.1.47.1.1.1.1.11.{#SNMPINDEX}</snmp_oid>
                      <key>system.hw.serialnumber[entPhysicalSerialNum.{#SNMPINDEX}]</key>
-                     <delay>300</delay>
+                     <delay>86400</delay>
                      <history>7</history>
                      <trends>0</trends>
                      <status>0</status>
@@ -295,9 +295,9 @@
                      <multiplier>0</multiplier>
                      <snmp_oid>.1.3.6.1.4.1.9.9.109.1.1.1.1.8.{#SNMPINDEX}</snmp_oid>
                      <key>system.cpu.util[cpmCPUTotal5minRev.{#SNMPINDEX}.]</key>
-                     <delay>30</delay>
-                     <history>3</history>
-                     <trends>7</trends>
+                     <delay>300</delay>
+                     <history>30</history>
+                     <trends>365</trends>
                      <status>0</status>
                      <value_type>3</value_type>
                      <allowed_hosts/>
@@ -413,9 +413,9 @@
                      <multiplier>0</multiplier>
                      <snmp_oid>1.3.6.1.4.1.9.9.48.1.1.1.5.{#SNMPINDEX}</snmp_oid>
                      <key>vm.memory.used[ciscoMemoryPoolUsed.{#SNMPVALUE}]</key>
-                     <delay>30</delay>
-                     <history>3</history>
-                     <trends>7</trends>
+                     <delay>300</delay>
+                     <history>30</history>
+                     <trends>365</trends>
                      <status>0</status>
                      <value_type>3</value_type>
                      <allowed_hosts/>
@@ -457,9 +457,9 @@
                      <multiplier>0</multiplier>
                      <snmp_oid>1.3.6.1.4.1.9.9.48.1.1.1.6.{#SNMPINDEX}</snmp_oid>
                      <key>vm.memory.free[ciscoMemoryPoolFree.{#SNMPVALUE}]</key>
-                     <delay>30</delay>
-                     <history>3</history>
-                     <trends>7</trends>
+                     <delay>300</delay>
+                     <history>30</history>
+                     <trends>365</trends>
                      <status>0</status>
                      <value_type>3</value_type>
                      <allowed_hosts/>
@@ -501,9 +501,9 @@
                      <multiplier>0</multiplier>
                      <snmp_oid/>
                      <key>vm.memory.used.percentage[vm.memory.used.percentage.{#SNMPVALUE}]</key>
-                     <delay>30</delay>
-                     <history>3</history>
-                     <trends>7</trends>
+                     <delay>300</delay>
+                     <history>30</history>
+                     <trends>365</trends>
                      <status>0</status>
                      <value_type>0</value_type>
                      <allowed_hosts/>
@@ -611,9 +611,9 @@
                      <multiplier>0</multiplier>
                      <snmp_oid>1.3.6.1.4.1.9.9.13.1.3.1.3.{#SNMPINDEX}</snmp_oid>
                      <key>sensor.temp.value[ciscoEnvMonTemperatureValue.{#SNMPVALUE}]</key>
-                     <delay>30</delay>
-                     <history>3</history>
-                     <trends>7</trends>
+                     <delay>300</delay>
+                     <history>30</history>
+                     <trends>365</trends>
                      <status>0</status>
                      <value_type>0</value_type>
                      <allowed_hosts/>
@@ -655,9 +655,9 @@
                      <multiplier>0</multiplier>
                      <snmp_oid>1.3.6.1.4.1.9.9.13.1.3.1.6.{#SNMPINDEX}</snmp_oid>
                      <key>sensor.temp.status[ciscoEnvMonTemperatureState.{#SNMPVALUE}]</key>
-                     <delay>30</delay>
-                     <history>3</history>
-                     <trends>7</trends>
+                     <delay>300</delay>
+                     <history>30</history>
+                     <trends>365</trends>
                      <status>0</status>
                      <value_type>3</value_type>
                      <allowed_hosts/>
@@ -840,7 +840,7 @@
                      <multiplier>0</multiplier>
                      <snmp_oid>1.3.6.1.4.1.9.9.13.1.5.1.3.{#SNMPINDEX}</snmp_oid>
                      <key>sensor.psu.status[ciscoEnvMonSupplyState.{#SNMPINDEX}]</key>
-                     <delay>30</delay>
+                     <delay>300</delay>
                      <history>7</history>
                      <trends>0</trends>
                      <status>0</status>
@@ -951,7 +951,7 @@
                      <multiplier>0</multiplier>
                      <snmp_oid>1.3.6.1.4.1.9.9.13.1.4.1.3.{#SNMPINDEX}</snmp_oid>
                      <key>sensor.fan.status[ciscoEnvMonFanState.{#SNMPINDEX}]</key>
-                     <delay>30</delay>
+                     <delay>300</delay>
                      <history>7</history>
                      <trends>0</trends>
                      <status>0</status>
@@ -1130,7 +1130,7 @@
                <multiplier>0</multiplier>
                <snmp_oid>1.3.6.1.2.1.47.1.1.1.1.13.1</snmp_oid>
                <key>system.hw.model</key>
-               <delay>300</delay>
+               <delay>86400</delay>
                <history>7</history>
                <trends>0</trends>
                <status>0</status>
@@ -1173,7 +1173,7 @@
                <multiplier>0</multiplier>
                <snmp_oid>1.3.6.1.2.1.47.1.1.1.1.11.1</snmp_oid>
                <key>system.hw.serialnumber</key>
-               <delay>300</delay>
+               <delay>86400</delay>
                <history>7</history>
                <trends>0</trends>
                <status>0</status>
@@ -1265,7 +1265,7 @@
                      <multiplier>0</multiplier>
                      <snmp_oid>1.3.6.1.2.1.47.1.1.1.1.11.{#SNMPINDEX}</snmp_oid>
                      <key>system.hw.serialnumber[entPhysicalSerialNum.{#SNMPINDEX}]</key>
-                     <delay>300</delay>
+                     <delay>86400</delay>
                      <history>7</history>
                      <trends>0</trends>
                      <status>0</status>
@@ -1370,7 +1370,7 @@
                      <multiplier>0</multiplier>
                      <snmp_oid>1.3.6.1.4.1.9.9.13.1.5.1.3.{#SNMPINDEX}</snmp_oid>
                      <key>sensor.psu.status[ciscoEnvMonSupplyState.{#SNMPINDEX}]</key>
-                     <delay>30</delay>
+                     <delay>300</delay>
                      <history>7</history>
                      <trends>0</trends>
                      <status>0</status>
@@ -1481,7 +1481,7 @@
                      <multiplier>0</multiplier>
                      <snmp_oid>1.3.6.1.4.1.9.9.13.1.4.1.3.{#SNMPINDEX}</snmp_oid>
                      <key>sensor.fan.status[ciscoEnvMonFanState.{#SNMPINDEX}]</key>
-                     <delay>30</delay>
+                     <delay>300</delay>
                      <history>7</history>
                      <trends>0</trends>
                      <status>0</status>
@@ -1597,9 +1597,9 @@
                      <multiplier>0</multiplier>
                      <snmp_oid>.1.3.6.1.4.1.9.9.109.1.1.1.1.5.{#SNMPINDEX}</snmp_oid>
                      <key>system.cpu.util[cpmCPUTotal5min.{#SNMPINDEX}]</key>
-                     <delay>30</delay>
-                     <history>3</history>
-                     <trends>7</trends>
+                     <delay>300</delay>
+                     <history>30</history>
+                     <trends>365</trends>
                      <status>0</status>
                      <value_type>3</value_type>
                      <allowed_hosts/>
@@ -1718,9 +1718,9 @@ of value (0..100)</description>
                      <multiplier>0</multiplier>
                      <snmp_oid>1.3.6.1.4.1.9.9.48.1.1.1.5.{#SNMPINDEX}</snmp_oid>
                      <key>vm.memory.used[ciscoMemoryPoolUsed.{#SNMPVALUE}]</key>
-                     <delay>30</delay>
-                     <history>3</history>
-                     <trends>7</trends>
+                     <delay>300</delay>
+                     <history>30</history>
+                     <trends>365</trends>
                      <status>0</status>
                      <value_type>3</value_type>
                      <allowed_hosts/>
@@ -1762,9 +1762,9 @@ of value (0..100)</description>
                      <multiplier>0</multiplier>
                      <snmp_oid>1.3.6.1.4.1.9.9.48.1.1.1.6.{#SNMPINDEX}</snmp_oid>
                      <key>vm.memory.free[ciscoMemoryPoolFree.{#SNMPVALUE}]</key>
-                     <delay>30</delay>
-                     <history>3</history>
-                     <trends>7</trends>
+                     <delay>300</delay>
+                     <history>30</history>
+                     <trends>365</trends>
                      <status>0</status>
                      <value_type>3</value_type>
                      <allowed_hosts/>
@@ -1806,9 +1806,9 @@ of value (0..100)</description>
                      <multiplier>0</multiplier>
                      <snmp_oid/>
                      <key>vm.memory.used.percentage[vm.memory.used.percentage.{#SNMPVALUE}]</key>
-                     <delay>30</delay>
-                     <history>3</history>
-                     <trends>7</trends>
+                     <delay>300</delay>
+                     <history>30</history>
+                     <trends>365</trends>
                      <status>0</status>
                      <value_type>0</value_type>
                      <allowed_hosts/>
@@ -1980,9 +1980,9 @@ of value (0..100)</description>
                <multiplier>0</multiplier>
                <snmp_oid>.1.3.6.1.4.1.9.2.1.58</snmp_oid>
                <key>system.cpu.util[avgBusy5]</key>
-               <delay>30</delay>
-               <history>3</history>
-               <trends>7</trends>
+               <delay>300</delay>
+               <history>30</history>
+               <trends>365</trends>
                <status>0</status>
                <value_type>3</value_type>
                <allowed_hosts/>
@@ -2024,7 +2024,7 @@ average of the CPU busy percentage.</description>
                <multiplier>0</multiplier>
                <snmp_oid>1.3.6.1.2.1.47.1.1.1.1.13.1</snmp_oid>
                <key>system.hw.model</key>
-               <delay>300</delay>
+               <delay>86400</delay>
                <history>7</history>
                <trends>0</trends>
                <status>0</status>
@@ -2067,7 +2067,7 @@ average of the CPU busy percentage.</description>
                <multiplier>0</multiplier>
                <snmp_oid>1.3.6.1.2.1.47.1.1.1.1.11.1</snmp_oid>
                <key>system.hw.serialnumber</key>
-               <delay>300</delay>
+               <delay>86400</delay>
                <history>7</history>
                <trends>0</trends>
                <status>0</status>
@@ -2160,7 +2160,7 @@ average of the CPU busy percentage.</description>
                      <multiplier>0</multiplier>
                      <snmp_oid>1.3.6.1.2.1.47.1.1.1.1.11.{#SNMPINDEX}</snmp_oid>
                      <key>system.hw.serialnumber[entPhysicalSerialNum.{#SNMPINDEX}]</key>
-                     <delay>300</delay>
+                     <delay>86400</delay>
                      <history>7</history>
                      <trends>0</trends>
                      <status>0</status>
@@ -2265,7 +2265,7 @@ average of the CPU busy percentage.</description>
                      <multiplier>0</multiplier>
                      <snmp_oid>1.3.6.1.4.1.9.9.13.1.5.1.3.{#SNMPINDEX}</snmp_oid>
                      <key>sensor.psu.status[ciscoEnvMonSupplyState.{#SNMPINDEX}]</key>
-                     <delay>30</delay>
+                     <delay>300</delay>
                      <history>7</history>
                      <trends>0</trends>
                      <status>0</status>
@@ -2376,7 +2376,7 @@ average of the CPU busy percentage.</description>
                      <multiplier>0</multiplier>
                      <snmp_oid>1.3.6.1.4.1.9.9.13.1.4.1.3.{#SNMPINDEX}</snmp_oid>
                      <key>sensor.fan.status[ciscoEnvMonFanState.{#SNMPINDEX}]</key>
-                     <delay>30</delay>
+                     <delay>300</delay>
                      <history>7</history>
                      <trends>0</trends>
                      <status>0</status>
@@ -2487,9 +2487,9 @@ average of the CPU busy percentage.</description>
                      <multiplier>0</multiplier>
                      <snmp_oid>1.3.6.1.4.1.9.9.48.1.1.1.5.{#SNMPINDEX}</snmp_oid>
                      <key>vm.memory.used[ciscoMemoryPoolUsed.{#SNMPVALUE}]</key>
-                     <delay>30</delay>
-                     <history>3</history>
-                     <trends>7</trends>
+                     <delay>300</delay>
+                     <history>30</history>
+                     <trends>365</trends>
                      <status>0</status>
                      <value_type>3</value_type>
                      <allowed_hosts/>
@@ -2531,9 +2531,9 @@ average of the CPU busy percentage.</description>
                      <multiplier>0</multiplier>
                      <snmp_oid>1.3.6.1.4.1.9.9.48.1.1.1.6.{#SNMPINDEX}</snmp_oid>
                      <key>vm.memory.free[ciscoMemoryPoolFree.{#SNMPVALUE}]</key>
-                     <delay>30</delay>
-                     <history>3</history>
-                     <trends>7</trends>
+                     <delay>300</delay>
+                     <history>30</history>
+                     <trends>365</trends>
                      <status>0</status>
                      <value_type>3</value_type>
                      <allowed_hosts/>
@@ -2575,9 +2575,9 @@ average of the CPU busy percentage.</description>
                      <multiplier>0</multiplier>
                      <snmp_oid/>
                      <key>vm.memory.used.percentage[vm.memory.used.percentage.{#SNMPVALUE}]</key>
-                     <delay>30</delay>
-                     <history>3</history>
-                     <trends>7</trends>
+                     <delay>300</delay>
+                     <history>30</history>
+                     <trends>365</trends>
                      <status>0</status>
                      <value_type>0</value_type>
                      <allowed_hosts/>
