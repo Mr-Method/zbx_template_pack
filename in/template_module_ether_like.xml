@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tns:root xmlns:tns="http://www.example.org/zbx_template_new/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/zbx_template_new/ ../../src/main/resources/templates/metrics.xsd">
+<root xmlns="zabbix.com/zbx_template_pack"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="zabbix.com/zbx_template_pack ../../src/main/resources/templates/metrics.xsd">
   <template>
 	  <classes>
 	  	<class>EtherLike-MIB</class>
@@ -9,7 +11,7 @@
 	  </classes>
 	  <name>Template SNMP EtherLike-MIB</name>
 	  <description>Template SNMP EtherLike-MIB (duplex control only)</description>
-	  <sysObjectID>na</sysObjectID>
+	  <sysObjectID></sysObjectID>
 	  <discoveryRules>
 	  	  	<discoveryRule>
 				<name>EtherLike-MIB Discovery</name>
@@ -90,4 +92,4 @@ valuable to justify the redundancy.</vendorDescription>
 			</mappings>
 		</value_map>
 	</value_maps>
-  </tns:root>
+ </root>
