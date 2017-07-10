@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root xmlns="zabbix.com/zbx_template_pack"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="zabbix.com/zbx_template_pack ../../src/main/resources/templates/metrics.xsd">
+<tns:root xmlns:tns="http://www.example.org/zbx_template_new/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/zbx_template_new/ ../../src/main/resources/templates/metrics.xsd">
   <template>
 	  <classes>
 	  	<class>Inventory</class>
@@ -24,4 +22,4 @@ xsi:schemaLocation="zabbix.com/zbx_template_pack ../../src/main/resources/templa
 	  	</template>
   	  </templates>
   </template>
-</root>
+</tns:root>
