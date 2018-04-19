@@ -11,7 +11,7 @@
       <template>
          <template>Template Net Arista SNMPv2</template>
          <name>Template Net Arista SNMPv2</name>
-         <description>Template Net Arista version: 0.15&#13;
+         <description>Template Net Arista version: 0.14&#13;
 MIBs used:&#13;
 HOST-RESOURCES-MIB&#13;
 ENTITY-SENSORS-MIB&#13;
@@ -1057,8 +1057,8 @@ The operational status of the sensor {#SENSOR_INFO}</description>
                </item_prototypes>
                <trigger_prototypes>
                   <trigger_prototype>
-                     <expression>{Template Net Arista SNMPv2:sensor.temp.value[entPhySensorValue.{#SNMPINDEX}].avg(5m)}&gt;{$TEMP_WARN:""}&#13;
-or&#13;
+                     <expression>{Template Net Arista SNMPv2:sensor.temp.value[entPhySensorValue.{#SNMPINDEX}].avg(5m)}&gt;{$TEMP_WARN:""}
+or
 {Template Net Arista SNMPv2:sensor.temp.status[entPhySensorOperStatus.{#SNMPINDEX}].last(0)}={$TEMP_WARN_STATUS}</expression>
                      <recovery_mode>1</recovery_mode>
                      <recovery_expression>{Template Net Arista SNMPv2:sensor.temp.value[entPhySensorValue.{#SNMPINDEX}].max(5m)}&lt;{$TEMP_WARN:""}-3</recovery_expression>
