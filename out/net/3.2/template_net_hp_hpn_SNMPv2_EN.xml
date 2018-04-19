@@ -11,7 +11,7 @@
       <template>
          <template>Template Net HP Enterprise Switch SNMPv2</template>
          <name>Template Net HP Enterprise Switch SNMPv2</name>
-         <description>Template Net HP Enterprise Switch version: 0.15&#13;
+         <description>Template Net HP Enterprise Switch version: 0.14&#13;
 MIBs used:&#13;
 STATISTICS-MIB&#13;
 NETSWITCH-MIB&#13;
